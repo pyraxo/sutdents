@@ -97,3 +97,14 @@ body {
     @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-white;
   }
 }
+
+@layer base {
+  body {
+    font-family: var(--font-geist-sans);
+  }
+}
+
+/* You can also define a class for Geist Mono if needed */
+.font-mono {
+  font-family: var(--font-geist-mono);
+}
